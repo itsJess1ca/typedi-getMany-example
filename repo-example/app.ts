@@ -1,3 +1,4 @@
+import 'reflect-metadata';
 import { FactoryToken } from './FactoryToken';
 import { Container } from 'typedi';
 
