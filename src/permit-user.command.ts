@@ -4,7 +4,7 @@ import { InternalCommandToken } from './internal-command';
 
 @Service({ id: InternalCommandToken, multiple: true })
 export class PermitUserCommand implements InternalCommand {
-  trigger: '!permit';
+  trigger = '!permit';
 
   runCommand(event: any) {
     console.log(`Run permitUser command`);
